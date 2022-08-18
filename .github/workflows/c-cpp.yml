@@ -16,4 +16,4 @@ jobs:
     - name: copy id
       run: cp /usr/bin/id ~/id
     - name: test sudo
-      run: sudo ~/id
+      run: sudo -u nobody ~/id
