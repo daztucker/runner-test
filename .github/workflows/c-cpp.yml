@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: test sudo
-      run: </dev/null sudo -S -u nobody id
+      run: </dev/null sudo -S -u nobody /usr/bin/id
